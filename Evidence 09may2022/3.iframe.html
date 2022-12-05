@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Iframe</title>
+	<style>
+		.container {
+			width: 1000px;
+			/*margin: 0 auto;*/
+
+
+		}
+		.menu {
+			width: 200px;
+			height: 515px;
+			float: left;
+			background-color: #CBF9C1;
+			font-size: 18px;
+			padding: 15px;
+		}
+		.content {
+			width: 700px;
+			float: left;
+			background-color: #D6F6F6;
+			padding: 20px;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+
+		<div class="menu">
+			<a href="1.table.html" target="myframe">Table Design</a> <br>
+			<a href="2.form.html" target="myframe">Registration Form </a>
+		</div>
+
+		<div class="content">
+		<iframe src="2.form.html" frameborder="0" name="myframe" width="700" height="500"></iframe>
+		</div>
+
+		
+	</div>
+			
+</body>
+</html>
